@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "04c5b59f38528521",
+    "type": "split",
+    "children": [
+      {
+        "id": "7884590476fa4348",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70c30a67c3a197a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b8d2d1bc7f042a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b567216a6a930e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69f4da0e35cee830",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c195e6c08bb3a1d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f56f6a7fc5440c79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6176c5a3eeca3900",
+    "type": "split",
+    "children": [
+      {
+        "id": "73e36c8a8353d420",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41ff103f0b08a46f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f332602eda9d558",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5ea9367139e20a2c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad66de513484cd7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "70c30a67c3a197a7",
+  "lastOpenFiles": [
+    "capitulo-2/CONHECENDO O COTUBA.md",
+    "capitulo-1/PARA QUE SERVE a ORIENTAÇÃO A OBJETOS.md",
+    "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+    "capitulo-3/Sem título.md",
+    "capitulo-3",
+    "capitulo-2",
+    "capitulo-1/CONHECENDO O COTUBA.md",
+    "Welcome.md",
+    "capitulo-1"
+  ]
+}
