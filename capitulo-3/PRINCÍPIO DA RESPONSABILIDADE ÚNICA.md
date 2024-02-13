@@ -7,7 +7,7 @@
 
 muitas responsabilidades significa muitas razões pra ser modificada
 
-### Single responsbility principle (SRP)
+### Single responsibility principle (SRP)
 Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 ### SRP E CLASSES COESAS
@@ -44,7 +44,7 @@ classe acessam todos os atributos. De acordo com essa métrica,uma classe totalm
 
 Pensando em motivos para mudanças, cada detalhe relacionado a essas responsabilidades poderia levar a uma necessidade de modificação da classe main.
 #### imports
-Os imports podem ser um bom indicador de muitas responsabilidades, classes que utilizam muitos pacotes diferentes tem grande chancer de precisaram ser modificadas por vários motivos
+**Os imports podem ser um bom indicador de muitas responsabilidades**, classes que utilizam muitos pacotes diferentes tem grande chancer de precisaram ser modificadas por vários motivos
 
 
 ### Utilizando os principio SRP na pratica
@@ -61,11 +61,11 @@ Depois de das refatorações , foram extraidas três novas classes da main
 
 ==Refatoração: uma alteração feita na estrutura interna do software para torná-lo mais fácil de ser entendido e menos custoso de ser modificado sem altera seu comportamento observável.==
 
-*Modificá-lo em pequenos passos até chegar a um código extensível e com responsabilidades bem definidas é uma maneira de ver a verdadeira utilidade de OO.*
+***Modificá-lo em pequenos passos até chegar a um código extensível e com responsabilidades bem definidas é uma maneira de ver a verdadeira utilidade de OO.***
 
 ## Duplicação
 
-*No fim das contas, quando temos repetição de código, há algo novo pedindo para nascer.*
+***No fim das contas, quando temos repetição de código, há algo novo pedindo para nascer.***
 
 Pragmatic Programmer (HUNT; THOMAS,1999)
 

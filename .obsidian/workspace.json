@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "capitulo-4/DIP.md",
+                "file": "capitulo-5/OCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "capitulo-4/DIP.md",
+                "file": "capitulo-5/OCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "capitulo-4/DIP.md",
+                "file": "capitulo-5/OCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "capitulo-4/DIP.md"
+                "file": "capitulo-5/OCP.md"
               }
             }
           }
@@ -148,9 +148,16 @@
   },
   "active": "70c30a67c3a197a7",
   "lastOpenFiles": [
-    "capitulo-4/tres-camadsxdependenciasinvertidas.png",
-    "capitulo-4/DIP.md",
+    "capitulo-5/geracao-ebooks.png",
+    "capitulo-5/OCP.md",
+    "Pasted image 20240213183101.png",
+    "capitulo-5/acaoPosEmissao.png",
     "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+    "capitulo-5",
+    "capitulo-4/DIP.md",
+    "capitulo-4/dependecias-invertidas.png",
+    "capitulo-4/dependencias-cotuba.png",
+    "capitulo-4/tres-camadsxdependenciasinvertidas.png",
     "Sem título",
     "capitulo-4",
     "Welcome.md",
@@ -159,7 +166,6 @@
     "capitulo-3/main_coordena_classes.png",
     "capitulo-3/main_chma_apenas_renderizador.png",
     "capitulo-3/classes_reponsabilidades_definidas.png",
-    "capitulo-3/Pasted image 20240212111633.png",
     "capitulo-2/CONHECENDO O COTUBA.md",
     "capitulo-1/PARA QUE SERVE a ORIENTAÇÃO A OBJETOS.md",
     "capitulo-3",
