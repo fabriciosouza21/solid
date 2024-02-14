@@ -119,7 +119,7 @@ Em outras palavras, regras de negócio não devem depender de **mecanismo de ent
 - Baixo nível: as classes relativas a UI, Main e LeitorOpcoesCLI , e as classes que implementam detalhes técnicos como RenderizadorMDParaHTML , GeradorPDF e GeradorEPUB
 ### Problema na classe cotuba 
 é classificada como alto nivel, mas depende de varias abstrações de baixo nivel!
-![[dependencias-cotuba.png]]
+![[capitulo-4/dependencias-cotuba.png]]
 
 ### invertendo as dependências da classe Cotuba
 as dependencias do cotuba vão ser invertidas

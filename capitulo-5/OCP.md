@@ -77,3 +77,66 @@ Não vale a pena manter uma abstração com apena uma implementação, mesmo vio
 Designer pattern 
 
 ## Uma Factory Inteligente
+
+``` java
+public interface GeradorEbook {
+	void gera(Ebook ebook);
+	static GeradorEbook cria(String formato) { // inserido
+	}
+}
+```
+
+![[capitulo-5/dependencias-cotuba.png]]
+
+### Condiconais ao polimosrfismo
+
+*Uma boa abstração aliada a polimorfismo nos permite criar geradores de ebook em diferentes formatos sem modificar a classe que usa esses geradores.*
+
+*Quando diferentes comportamentos são agrupados em uma classe, é difícil evitar o uso de declarações condicionais para selecionar o comportamento correto. Encapsular o comportamento em classes de estratégia separadas elimina essas declarações condicionais.*
+
+O polimorfismo é uma ótima ferramenta para remover ifs 
+
+*Objetos têm um mecanismo fabuloso, mensagens polimórficas,que permitem expressar lógica condicional de maneira flexível mas clara.*
+
+*Um bom design OO vai ter poucas condicionais como if-else ou switch-case .*
+
+#### Mapeando formatos para geradores
+
+Maps podem nos ajudar a organizar melhor o código 
+
+``` java
+public interface GeradorEbook {
+	Map<String, GeradorEbook> GERADORES =
+	new HashMap<String, GeradorEbook>() {{
+	put("pdf", new GeradorPDF());
+	put("epub", new GeradorEPUB());
+	}};
+
+	static GeradorEbook cria(String formato) {
+	GeradorEbook gerador = GERADORES.get(formato);
+		if (gerador == null) {
+			throw new IllegalArgumentException(
+			"Formato do ebook inválido: " + formato);
+		}
+		return gerador;
+	}
+
+// código omitido...
+}
+ ```
+
+#### utilizando um enum
+
+``` java
+public enum FormatoEbook {
+	PDF(new GeradorPDF()),
+	EPUB(new GeradorEPUB());
+	private GeradorEbook gerador;
+		FormatoEbook(GeradorEbook gerador) {
+		this.gerador = gerador;
+	}
+public GeradorEbook getGerador() {
+	return gerador;
+}
+```
+
