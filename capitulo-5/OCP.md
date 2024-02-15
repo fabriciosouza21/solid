@@ -140,3 +140,50 @@ public GeradorEbook getGerador() {
 }
 ```
 
+
+## PONDO A FLEXIBILIDADE DO COTUBA À PROVA
+
+### OCP e Spring
+
+uma estrategia muito boa, utilizar o spring para instancia todas as instancias mapeadas, e logo a apos utilizar um filter pra selecionar o correto, no caso abaixo, interface tem um método accept que tem os métodos aceitos, cada implementação vai ter o seu.
+
+``` java
+@Component
+public class GeradorPDF implements GeradorEbook {
+// código omitido...
+	@Override
+	public boolean accept(FormatoEbook formato) {
+	return FormatoEbook.PDF.equals(formato);
+	}
+}
+```
+
+``` java
+
+@Component
+public class Cotuba {
+// código omitido...
+	public void executa(ParametrosCotuba parametros) {
+	// código omitido...
+	GeradorEbook geradorEbook = geradoresEbook.stream()
+		.filter(gerador -> gerador.accept(formato))
+		.findAny()
+		.orElseThrow(() -> new IllegalArgumentException(
+		"Formato do ebook inválido: " + formato));
+		geradorEbook.gera(ebook);
+	}
+}
+```
+
+
+### CONTRAPONTO: CRÍTICAS AO OCP
+
+liga o **OCP a um contexto já ultrapassado, em que modificar software era caro e arriscado.** Com técnicas modernas como refatoração e TDD, o código é muito mais maleável. Dessa forma, **código deixa de ser um ativo a ser preservado e passa a ser um custo a ser minimizado. De acordo com North, nesse contexto atual, escrever código simples e mais específico passaria a fazer mais sentido.**
+
+*não adicione toneladas de flexibilidade da primeira vez só porque você pode precisar mudar as coisas depois.*
+
+**Código que não está exposto nas bordas do sistema é barato de modificar e**
+**não precisa ser extensível.**
+
+*você pode até dizer que deveríamos ser abertos para modificação.*
+
