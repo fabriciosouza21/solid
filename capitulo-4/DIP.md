@@ -51,7 +51,7 @@ EmissorNotaFiscal tem muitas dependências :
 
 ## Acoplamento, Estabilidade e volatilidade
 
-A falta de cuidados com as dependências do nosso código faz com que a flexibilidade e o reúso fiquem prejudicados.
+**A falta de cuidados com as dependências do nosso código faz com que a flexibilidade e o reúso fiquem prejudicados.**
 
 ### Acoplamento bom x acoplamento ruim
 Classes estáveis podem ser utilizadas por que dificilmente são alteradas é o caso do pacote java.lang, por isso podemos depender delas tranquilamente.
@@ -61,7 +61,7 @@ classes voláteis são classes que podem ser mudadas com frequência, biblioteca
 ## Abstrações e inversão da dependências
 As abstrações minimizam os impactos de mudanças em dependências voláteis. **Abstrações são estáveis**: mudam muito menos que implementações.
 
-Usando classes abstratas ou interfaces, o código não depende mais diretamente da dependência volátil e sim da abstração. E a dependência volátil, por sua vez, também depende da abstração, implementando-a. Por isso, podemos dizer que a dependência é invertida.
+**Usando classes abstratas ou interfaces, o código não depende mais diretamente da dependência volátil e sim da abstração**. **E a dependência volátil, por sua vez, também depende da abstração**, implementando-a. Por isso, podemos dizer que a dependência é invertida.
 
 #### Evitando vazamento de detalhes de implementação
 
@@ -95,7 +95,7 @@ A parte mais importante do nosso código é implementação da regras de negocio
 
 Uncle bob diz que código de alto **nível é aquele mais distante das entradas ou saídas do sistema e**, por isso, muda menos frequentemente e por razões mais importantes, relacionadas ao negócio.
 
-Já o código de baixo nível, **mais próximo das entradas ou saídas,** muda mais frequentemente e com mais urgência
+Já o código de baixo nível, **mais próximo das entradas ou saídas,** muda mais frequentemente e com mais urgência.
 
 *Porém, para quem desenvolve o Hibernate, gerar código SQLcomum entre os bancos de dados pode ser considerado alto nível, já que está relacionado ao problema que uma biblioteca de ORM resolve. Variações entre os bancos de dados, como AUTO_INCREMENT , SEQUENCE ou IDENTITY na geração de PKs, seriam detalhes de implementação de baixo nível.*
 

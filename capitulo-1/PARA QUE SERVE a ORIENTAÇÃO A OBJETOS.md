@@ -46,9 +46,9 @@ artigo de refencia: Getting a SOLID start (MARTIN, 2009)
 
 ##### princípios sobre coesão
 
-- release reuse equivalency principle 
-- common closure principle
-- common reuse principle
+- release reuse equivalency principle - componentes de modulo devem ser reutilizados de forma independente
+- common closure principle - classes que mudam juntas devem esta no mesmo modulo
+- common reuse principle - classes reutilizadas juntas devem está no mesmo modulo
 
 #### Princípios de acoplament de módulos
 

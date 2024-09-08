@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7884590476fa4348",
+        "id": "16eff968b1133995",
         "type": "tabs",
         "children": [
           {
-            "id": "70c30a67c3a197a7",
+            "id": "260fae6e8c35297e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "capitulo-7/LSP.md",
+                "file": "capitulo-4/DIP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "capitulo-7/LSP.md",
+                "file": "capitulo-4/DIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "capitulo-7/LSP.md",
+                "file": "capitulo-4/DIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "capitulo-7/LSP.md"
+                "file": "capitulo-4/DIP.md"
               }
             }
           }
@@ -146,21 +146,27 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "70c30a67c3a197a7",
+  "active": "260fae6e8c35297e",
   "lastOpenFiles": [
-    "capitulo-6/OCP POTENCIALIZADO- PLUGINS.md",
-    "capitulo-7/LSP.md",
-    "capitulo-7",
+    "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
+    "capitulo-1/PARA QUE SERVE a ORIENTAÇÃO A OBJETOS.md",
     "capitulo-5/OCP.md",
+    "capitulo-5/acaoPosEmissao.png",
+    "capitulo-8/PRINCÍPIO DASEGREGAÇÃO DE INTERFACES.md",
+    "capitulo-7/LSP.md",
+    "capitulo-6/OCP POTENCIALIZADO- PLUGINS.md",
+    "capitulo-4/DIP.md",
+    "capitulo-2/CONHECENDO O COTUBA.md",
+    "capitulo-3/classes_reponsabilidades_definidas.png",
+    "capitulo-8/interfaces-segregadas.png",
+    "capitulo-9/imutabilidade e encapsulamento.md",
+    "capitulo-9",
+    "capitulo-8",
+    "capitulo-7",
     "capitulo-6",
     "capitulo-5/dependencias-cotuba.png",
-    "capitulo-3/PRINCÍPIO DA RESPONSABILIDADE ÚNICA.md",
-    "capitulo-2/CONHECENDO O COTUBA.md",
-    "capitulo-1/PARA QUE SERVE a ORIENTAÇÃO A OBJETOS.md",
-    "capitulo-4/DIP.md",
     "capitulo-5/geracao-ebooks.png",
     "Pasted image 20240213183101.png",
-    "capitulo-5/acaoPosEmissao.png",
     "capitulo-5",
     "capitulo-4/dependecias-invertidas.png",
     "capitulo-4/dependencias-cotuba.png",
@@ -169,8 +175,6 @@
     "Welcome.md",
     "capitulo-3/Sem título.md",
     "Pasted image 20240212120745.png",
-    "capitulo-3/main_coordena_classes.png",
-    "capitulo-3/main_chma_apenas_renderizador.png",
     "capitulo-3",
     "capitulo-2",
     "capitulo-1/CONHECENDO O COTUBA.md",

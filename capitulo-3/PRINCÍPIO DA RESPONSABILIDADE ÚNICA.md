@@ -23,7 +23,7 @@ classes coesa têm uma característica semelhante: os conceitos que essas classe
 ### como identificar classes pouco coesas
 - Possuem muitos métodos diferentes
 - sao modificadas com frequência
-- não para nunca de crescer
+- **não para nunca de crescer**
 
 ### Métrica: LCOM 
 
@@ -44,7 +44,7 @@ classe acessam todos os atributos. De acordo com essa métrica,uma classe totalm
 
 Pensando em motivos para mudanças, cada detalhe relacionado a essas responsabilidades poderia levar a uma necessidade de modificação da classe main.
 #### imports
-**Os imports podem ser um bom indicador de muitas responsabilidades**, classes que utilizam muitos pacotes diferentes tem grande chancer de precisaram ser modificadas por vários motivos
+**Os imports podem ser um bom indicador de muitas responsabilidades**, classes que utilizam muitos pacotes diferentes tem grande chance de precisaram ser modificadas por vários motivos
 
 
 ### Utilizando os principio SRP na pratica
@@ -71,7 +71,7 @@ Pragmatic Programmer (HUNT; THOMAS,1999)
 
 Dont't Repeat Yourself (não se repita)
 
-*Todo bloco de conhecimento deve ter uma representação única, sem ambiguidades e dominante num sistema*
+***Todo bloco de conhecimento deve ter uma representação única, sem ambiguidades e dominante num sistema***
 
 *Dependência é o principal problema em desenvolvimento de software. Duplicação é o sintoma. Mas, ao contrário da maioria dos problemas na vida, nos quais eliminar os sintomas*
 *faz com que um problema mais grave apareça em outro lugar,eliminar duplicação nos programas elimina a dependência.*
